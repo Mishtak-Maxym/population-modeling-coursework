@@ -38,7 +38,7 @@ CREATE TABLE simulation_points (
     step_index INTEGER NOT NULL,
     time_value REAL,
     population_value REAL NOT NULL,
-    FOREIGN KEY (run_id) REFERENCES simulation_runs(id)
+    FOREIGN KEY (run_id) REFERENCES simulation_runs(id)a
 );
 
 CREATE TABLE age_groups (
